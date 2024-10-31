@@ -1,0 +1,35 @@
+{
+  "id": "stage",
+  "name": "Stage",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Provides a stage to contain and highlight content.",
+
+  "shortcode": {
+    "files": [
+      "modules/stage/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Stage_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/stage/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/stage/stage.min.css"
+  ],
+  "js-files": []
+
+}

@@ -1,0 +1,35 @@
+{
+  "id": "google-adsense",
+  "name": "Google AdSense",
+  "version": "1.0.0",
+  "stability": "development",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Display Google AdSense adverts on your website. This module allows you to position and resize Google AdSense adverts in your pages. You must register an account with Google AdSense for this module to work correctly.",
+
+  "shortcode": {
+    "files": [
+      "modules/google-adsense/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_GoogleAdsense_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/google-adsense/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/google-adsense/google-adsense.min.css"
+  ],
+  "js-files": []
+
+}

@@ -1,0 +1,35 @@
+{
+  "id": "video-player",
+  "name": "Video Player",
+  "version": "1.0.0",
+  "stability": "development",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+
+  "shortcode": {
+    "files": [
+      "modules/video-player/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_VideoPlayer_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/video-player/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/video-player/video-player.min.css"
+  ],
+  "js-files": []
+
+}

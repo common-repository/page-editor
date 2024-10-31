@@ -1,0 +1,35 @@
+{
+  "id": "button",
+  "name": "Button",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "A clickable button that links to a web page. Customise the color, size, style etc.",
+
+  "shortcode": {
+    "files": [
+      "modules/button/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Button_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/button/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/button/button.min.css"
+  ],
+  "js-files": []
+
+}

@@ -1,0 +1,35 @@
+{
+  "id": "raw-html",
+  "name": "Raw HTML",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Allows HTML code to be inserted into the page. This allows the insertion of custom HTML.",
+
+  "shortcode": {
+    "files": [
+      "modules/raw-html/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_RawHtml_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/raw-html/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/raw-html/raw-html.min.css"
+  ],
+  "js-files": []
+
+}

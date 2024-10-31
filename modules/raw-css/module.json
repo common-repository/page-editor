@@ -1,0 +1,35 @@
+{
+  "id": "raw-css",
+  "name": "Raw CSS",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Allows custom CSS definitions to be inserted into the page.",
+
+  "shortcode": {
+    "files": [
+      "modules/raw-css/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_RawCss_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/raw-css/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/raw-css/raw-css.min.css"
+  ],
+  "js-files": []
+
+}

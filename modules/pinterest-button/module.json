@@ -1,0 +1,35 @@
+{
+  "id": "pinterest-button",
+  "name": "Pinterest Button",
+  "version": "1.0.0",
+  "stability": "development",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+
+  "shortcode": {
+    "files": [
+      "modules/pinterest-button/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_PinterestButton_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/pinterest-button/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/pinterest-button/pinterest-button.min.css"
+  ],
+  "js-files": []
+
+}

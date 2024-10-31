@@ -1,0 +1,35 @@
+{
+  "id": "icon",
+  "name": "Icon",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Selection of icons. Choose the icon, color, size, background shape etc",
+
+  "shortcode": {
+    "files": [
+      "modules/icon/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Icon_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/icon/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/icon/icon.min.css"
+  ],
+  "js-files": []
+
+}

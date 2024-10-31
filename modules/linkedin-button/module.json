@@ -1,0 +1,35 @@
+{
+  "id": "linkedin-button",
+  "name": "LinkedIn Button",
+  "version": "1.0.0",
+  "stability": "development",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+
+  "shortcode": {
+    "files": [
+      "modules/linkedin-button/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_LinkedinButton_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/linkedin-button/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/linkedin-button/linkedin-button.min.css"
+  ],
+  "js-files": []
+
+}

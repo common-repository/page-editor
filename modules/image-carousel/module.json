@@ -1,0 +1,39 @@
+{
+  "id": "image-carousel",
+  "name": "Image Carousel",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "An image slideshow. Select your images and create a carousel of images.",
+
+  "shortcode": {
+    "files": [
+      "modules/image-carousel/ImageCarousel.php",
+      "modules/image-carousel/Image.php"
+    ],
+    "classes": [
+      "PageEditor_Module_ImageCarousel_ShortCode",
+      "PageEditor_Module_ImageCarousel_Image_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/image-carousel/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/image-carousel/image-carousel.min.css"
+  ],
+  "js-files": [
+    "@PE/modules/image-carousel/image-carousel.min.js"
+  ]
+
+}

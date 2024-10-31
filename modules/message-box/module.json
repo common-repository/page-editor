@@ -1,0 +1,35 @@
+{
+  "id": "message-box",
+  "name": "Message Box",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Display an alert / message. Customise the text, icon and message box style.",
+
+  "shortcode": {
+    "files": [
+      "modules/message-box/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_MessageBox_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/message-box/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/message-box/message-box.min.css"
+  ],
+  "js-files": []
+
+}

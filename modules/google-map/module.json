@@ -1,0 +1,35 @@
+{
+  "id": "google-map",
+  "name": "Google Map",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Embed a Google Map into your page. Simply enter the address and select the style and size of your map.",
+
+  "shortcode": {
+    "files": [
+      "modules/google-map/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_GoogleMap_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/google-map/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/google-map/google-map.min.css"
+  ],
+  "js-files": []
+
+}

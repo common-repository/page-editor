@@ -1,0 +1,35 @@
+{
+  "id": "group",
+  "name": "Group",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Contains a collection of other elements, grouped together such that they can be moved as a group.",
+
+  "shortcode": {
+    "files": [
+      "modules/group/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Group_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/group/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/group/group.min.css"
+  ],
+  "js-files": []
+
+}

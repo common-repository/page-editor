@@ -1,0 +1,35 @@
+{
+  "id": "progress-bar",
+  "name": "Progress Bar",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "A horizontal progress bar. Select the percentage value, size, color and style of the progress bar.",
+
+  "shortcode": {
+    "files": [
+      "modules/progress-bar/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_ProgressBar_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/progress-bar/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/progress-bar/progress-bar.min.css"
+  ],
+  "js-files": []
+
+}

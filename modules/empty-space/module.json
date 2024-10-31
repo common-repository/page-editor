@@ -1,0 +1,35 @@
+{
+  "id": "empty-space",
+  "name": "Empty Space",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "An empty space with a custom height. Add an empty space between other elements.",
+
+  "shortcode": {
+    "files": [
+      "modules/empty-space/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_EmptySpace_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/empty-space/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/empty-space/empty-space.min.css"
+  ],
+  "js-files": []
+
+}

@@ -1,0 +1,35 @@
+{
+  "id": "separator",
+  "name": "Separator",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Similar to a horizontal rule or divider. Allows a line separator be be inserted between elements.",
+
+  "shortcode": {
+    "files": [
+      "modules/separator/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Separator_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/separator/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/separator/separator.min.css"
+  ],
+  "js-files": []
+
+}

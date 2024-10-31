@@ -1,0 +1,25 @@
+{
+  "id": "customer-reviews-1",
+  "type": "block",
+  "name": "Customer Reviews",
+  "version": "1.0.0",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+  "tags": ["review", "testimonial", "feedback"],
+
+
+  "required-modules": ["row"],
+
+  "shortcode": "[pe_group][pe_heading text='Our Reviews' element-tag='h2' font-size='md' alignment='center' effect='none'][pe_row column-spacing='md'][pe_column width='33.333%'][/pe_column][pe_column width='33.333%'][/pe_column][pe_column width='33.333%'][/pe_column][/pe_row][/pe_group]"
+
+}

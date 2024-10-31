@@ -1,0 +1,35 @@
+{
+  "id": "blockquote",
+  "name": "Blockquote",
+  "version": "1.0.0",
+  "stability": "testing",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+
+  "shortcode": {
+    "files": [
+      "modules/blockquote/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Blockquote_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/blockquote/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/blockquote/blockquote.min.css"
+  ],
+  "js-files": []
+
+}

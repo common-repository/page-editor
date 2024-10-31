@@ -1,0 +1,24 @@
+{
+  "id": "our-services-1",
+  "type": "block",
+  "name": "Our Services 1",
+  "version": "1.0.0",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "",
+  "tags": ["services", "about", "products"],
+
+  "required-modules": ["row"],
+
+  "shortcode": "[pe_row column-spacing='md'][pe_column width='50%'][/pe_column][pe_column width='50%'][/pe_column][/pe_row]"
+
+}

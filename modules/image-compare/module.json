@@ -1,0 +1,37 @@
+{
+  "id": "image-compare",
+  "name": "Image Compare",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Compare two images with a siding slide by side comparison. Ideal for 'before' and 'after' images.",
+
+  "shortcode": {
+    "files": [
+      "modules/image-compare/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_ImageCompare_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/image-compare/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/image-compare/image-compare.min.css"
+  ],
+  "js-files": [
+    "@PE/modules/image-compare/image-compare.min.js"
+  ]
+
+}

@@ -1,0 +1,35 @@
+{
+  "id": "text-block",
+  "name": "Text Block",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Allows paragraphs of text to be inserted into the page.",
+
+  "shortcode": {
+    "files": [
+      "modules/text-block/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_TextBlock_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/text-block/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/text-block/text-block.min.css"
+  ],
+  "js-files": []
+
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tabs",
+  "name": "Tabs",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Switch between content by selecting each tab.",
+
+  "shortcode": {
+    "files": [
+      "modules/tabs/Tabs.php",
+      "modules/tabs/Tab.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Tabs_ShortCode",
+      "PageEditor_Module_Tabs_Tab_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/tabs/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/tabs/tabs.min.css"
+  ],
+  "js-files": [
+    "@PE/modules/tabs/tabs.min.js"
+  ]
+
+}

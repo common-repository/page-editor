@@ -1,0 +1,37 @@
+{
+  "id": "row",
+  "name": "Row",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "A sizable, orderable row of columns. Divides the page width into columns which can contain other elements.",
+
+  "shortcode": {
+    "files": [
+      "modules/row/Row.php",
+      "modules/row/Column.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Row_RowShortCode",
+      "PageEditor_Module_Row_ColumnShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/row/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/row/row.min.css"
+  ],
+  "js-files": []
+
+}

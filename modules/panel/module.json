@@ -1,0 +1,35 @@
+{
+  "id": "panel",
+  "name": "Panel",
+  "version": "1.0.0",
+  "stability": "production",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "A panel with a heading and content area that can contain other elements.",
+
+  "shortcode": {
+    "files": [
+      "modules/panel/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_Panel_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/panel/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/panel/panel.min.css"
+  ],
+  "js-files": []
+
+}

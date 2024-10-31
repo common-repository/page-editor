@@ -1,0 +1,37 @@
+{
+  "id": "dropzone",
+  "name": "DropZone",
+  "version": "1.0.0",
+  "stability": "testing",
+
+  "author": {
+    "name": "PageEditor",
+    "url": "https://page-editor.com"
+  },
+
+  "license": {
+    "name": "PageEditor License 1.0.0",
+    "url": "https://page-editor.com/licensing/page-editor-license-1-0-0"
+  },
+
+  "description": "Drop'n'drag file uploader. Allows users of your website to upload files by simply dragging files into a dropzone. You can specify what to do with the files once they are dropped in.",
+
+  "shortcode": {
+    "files": [
+      "modules/dropzone/ShortCode.php"
+    ],
+    "classes": [
+      "PageEditor_Module_DropZone_ShortCode"
+    ]
+  },
+
+  "manifesto-script": "@PE/modules/dropzone/manifesto.min.js",
+
+  "css-files": [
+    "@PE/modules/dropzone/dropzone.min.css"
+  ],
+  "js-files": [
+    "@PE/modules/dropzone/dropzone.min.js"
+  ]
+
+}
